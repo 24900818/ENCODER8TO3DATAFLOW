@@ -41,13 +41,13 @@ Figure 02  Encoder 8 * 3
 **PROGRAM**
 /*Program for Encoder 8 to 3 in Dataflow Modelling and verify its truth table programming 
 
-Module exp_5(din,a,b,c);
-input[0:7] din;
-output a,b,c;
-assign=(din[4]| din[5]| din[6]| din[7]);
-assign=(din[2]| din[3]| din[6]| din[7]);
-assign=(din[1]| din[3]| din[5]| din[7]);
-endmodule 
+    Module exp_5(din,a,b,c);
+    input[0:7] din;
+    output a,b,c;
+    assign=(din[4]| din[5]| din[6]| din[7]);
+    assign=(din[2]| din[3]| din[6]| din[7]);
+    assign=(din[1]| din[3]| din[5]| din[7]);
+    endmodule 
 
 Develped by:Nevathitha N
 RegisterNumber:24900818
