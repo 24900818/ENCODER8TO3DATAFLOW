@@ -39,8 +39,18 @@ Figure 02  Encoder 8 * 3
 /* write all the steps invloved */
 
 **PROGRAM**
-![WhatsApp Image 2024-11-04 at 01 10 34_2f5a3b6e](https://github.com/user-attachments/assets/16e405c2-6670-4d97-9c34-5f1f1c4e4f0a)
+/*Program for Encoder 8 to 3 in Dataflow Modelling and verify its truth table programming 
 
+Module exp_5(din,a,b,c);
+input[0:7] din;
+output a,b,c;
+assign=(din[4]| din[5]| din[6]| din[7]);
+assign=(din[2]| din[3]| din[6]| din[7]);
+assign=(din[1]| din[3]| din[5]| din[7]);
+endmodule 
+
+Develped by:Nevathitha N
+RegisterNumber:24900818
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![Screenshot (20)](https://github.com/user-attachments/assets/9179061e-60ee-47ae-ba9d-b1cae504b66b)
 
