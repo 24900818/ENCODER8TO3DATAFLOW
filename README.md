@@ -51,6 +51,7 @@ Figure 02  Encoder 8 * 3
 
 Develped by:Nevathitha N
 RegisterNumber:24900818
+
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![Screenshot (20)](https://github.com/user-attachments/assets/9179061e-60ee-47ae-ba9d-b1cae504b66b)
 
